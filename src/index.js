@@ -2,9 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/header/header.js';
 
-ReactDOM.render( <
-    div / > ,
+ReactDOM.render( 
+    <div className="app">
+        <div><Header /> </div>
+    </div>,
     document.getElementById('root')
 );
 

@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
-import Header from './components/header/header.js';
+import View from './view/view.js';
 
 ReactDOM.render( 
     <div className="app">
-        <div><Header /> </div>
+        <div className='header'><View /> </div>
     </div>,
     document.getElementById('root')
 );

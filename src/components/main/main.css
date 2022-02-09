@@ -1,0 +1,36 @@
+.container-main {
+  margin-top: 15vh;
+  height: 85vh;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 30% 70%;
+  overflow: auto;
+}
+
+.container-text {
+  width: 100%;
+  grid-row: 1;
+  text-align: center;
+  color: #1C1D20;
+}
+
+.text-title {
+  /*margin: 5px;*/
+  font-size: 40px;
+}
+
+.text-phrase {
+  font-size: 30px;
+}
+
+.container-avatar {
+  width: 100%;
+  grid-row: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-avatar img {
+  height: 90%;
+}

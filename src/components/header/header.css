@@ -1,12 +1,13 @@
 .container-header {
-  background-color: #1C1D20;
-  height: 70px;
+  background-color: #EB1C42;
+  height: 15vh;
   width: 90%;
-  padding: 0.5% 5%;
+  padding: 0% 5%;
   position: fixed;
+  top: 0;
   display: grid;
   grid-template-columns: 50%;
-  grid-column: 1;
+  align-items: center;
 }
 
 .container-logo {
